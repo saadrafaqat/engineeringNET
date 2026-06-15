@@ -723,7 +723,7 @@ function authenticateUserLogin() {
     candidateId = document.getElementById('candidateIdInput').value.trim();
     var pass = document.getElementById('candidatePassInput').value.trim();
     if (!candidateId || !pass) { alert('Both ID and Password required.'); return; }
-    if (pass !== 'NUST2026June') { alert('Access Denied: Invalid Password.'); return; }
+    if (pass !== 'NUST2026July') { alert('Access Denied: Invalid Password.'); return; }
     document.getElementById('instructionsCandidateId').innerText = candidateId;
     showScreen('instructionsScreenView');
 }
